@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JobPortalX</title>
+  <link rel="stylesheet" href="JobPortalX_files/style.css">
+  <script defer="defer" src="JobPortalX_files/script.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">JobPortalX</div>
+    <nav>
+      <a href="#jobs">Jobs</a>
+      <a href="#companies">Companies</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Discover Your Next Opportunity</h1>
+      <p>Explore thousands of jobs from top companies worldwide</p>
+      <button onclick="scrollToJobs()">Explore Jobs</button>
+    </div>
+  </section>
+
+  <!-- Search -->
+  <section class="search">
+    <input type="text" id="searchInput" placeholder="Search jobs by title, company, or location...">
+  </section>
+
+  <!-- Job Listings -->
+  <section id="jobs" class="jobs">
+    <h2>Available Jobs</h2>
+    <div class="job-grid">
+
+      <!-- Frontend Developer -->
+      <div class="job-card">
+        <img src="JobPortalX_files/photo-1519389950473-47ba0277781c.avif" alt="Frontend Developer">
+        <h3>Frontend Developer</h3>
+        <p class="company">TechSphere</p>
+        <p class="location">Bangalore, India</p>
+        <p class="salary">₹10 LPA</p>
+        <div class="job-actions">
+          <button>Apply Now</button>
+          <span class="save" onclick="toggleSave(this)">♡</span>
+        </div>
+      </div>
+
+      <!-- Backend Developer -->
+      <div class="job-card">
+        <img src="JobPortalX_files/photo-1559526324-593bc073d938.avif" alt="Backend Developer">
+        <h3>Backend Developer</h3>
+        <p class="company">CloudWorks</p>
+        <p class="location">Mumbai, India</p>
+        <p class="salary">₹12 LPA</p>
+        <div class="job-actions">
+          <button>Apply Now</button>
+          <span class="save" onclick="toggleSave(this)">♡</span>
+        </div>
+      </div>
+
+      <!-- Data Scientist -->
+      <div class="job-card">
+        <img src="JobPortalX_files/photo-1559526324-593bc073d938.avif" alt="Data Scientist">
+        <h3>Data Scientist</h3>
+        <p class="company">DataWorks</p>
+        <p class="location">Pune, India</p>
+        <p class="salary">₹15 LPA</p>
+        <div class="job-actions">
+          <button>Apply Now</button>
+          <span class="save" onclick="toggleSave(this)">♡</span>
+        </div>
+      </div>
+
+      <!-- Marketing Manager -->
+      <div class="job-card">
+        <img src="JobPortalX_files/photo-1559526324-593bc073d938.avif" alt="Marketing Manager">
+        <h3>Marketing Manager</h3>
+        <p class="company">BrandX</p>
+        <p class="location">Delhi, India</p>
+        <p class="salary">₹15 LPA</p>
+        <div class="job-actions">
+          <button>Apply Now</button>
+          <span class="save" onclick="toggleSave(this)">♡</span>
+        </div>
+      </div>
+
+      <!-- Graphic Designer -->
+      <div class="job-card">
+        <img src="JobPortalX_files/photo-1521791136064-7986c2920216.avif" alt="Graphic Designer">
+        <h3>Graphic Designer</h3>
+        <p class="company">DesignPro</p>
+        <p class="location">Remote</p>
+        <p class="salary">₹7 LPA</p>
+        <div class="job-actions">
+          <button>Apply Now</button>
+          <span class="save" onclick="toggleSave(this)">♡</span>
+        </div>
+      </div>
+
+      <!-- Accountant -->
+      <div class="job-card">
+        <img src="JobPortalX_files/photo-1523289333742-be1143f6b766.avif" alt="Accountant">
+        <h3>Accountant</h3>
+        <p class="company">FinCorp</p>
+        <p class="location">Hyderabad, India</p>
+        <p class="salary">₹6 LPA</p>
+        <div class="job-actions">
+          <button>Apply Now</button>
+          <span class="save" onclick="toggleSave(this)">♡</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Companies -->
+  <section id="companies" class="companies">
+    <h2>Top Companies</h2>
+    <div class="company-logos">
+      <img src="JobPortalX_files/Google_2015_logo.svg" alt="Google">
+      <img src="JobPortalX_files/Microsoft_logo.svg" alt="Microsoft">
+      <img src="JobPortalX_files/Amazon_logo.svg" alt="Amazon">
+      <img src="JobPortalX_files/Tesla_Motors.svg" alt="Tesla">
+      <img src="JobPortalX_files/IBM_logo.svg" alt="IBM">
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About JobPortalX</h2>
+    <p>JobPortalX is a modern platform connecting job seekers with top 
+companies. Browse, save, and apply for jobs efficiently and 
+professionally.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required="">
+      <input type="email" placeholder="Your Email" required="">
+      <textarea placeholder="Your Message" required=""></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 JobPortalX | All Rights Reserved</p>
+  </footer>
+
+
+
+</body></html>
